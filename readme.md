@@ -40,7 +40,7 @@ To compile the application, make sure you have properly set up your development 
 Here are some screenshots of the application running on different systems:
 
 ### Windows
-![Windows](Windows.PNG)
+![Windows](Screen/Windows.PNG)
 
 ### iPhone
-![iPhone](Iphone.png)
+![iPhone](Screen/Iphone.png)
