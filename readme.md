@@ -7,7 +7,9 @@ This application is designed to determine the type of operating system it is run
 In the `MainComponent.cpp` file, preprocessor macros are used to determine the operating system:
 
 ```bash
-#if JUCE_WINDOWS message = "Hello Desktop (Windows)"; #elif JUCE_IOS message = "Hello iPhone"; #else message = "Unknown System"; #endif
+#if JUCE_WINDOWS message = "Hello Desktop (Windows)";
+#elif JUCE_IOS message = "Hello iPhone";
+#else message = "Unknown System"; #endif
 ```
 
 ### Explanation of Macros
@@ -22,7 +24,9 @@ These macros allow the application to adapt its behavior based on the operating 
 When the application is run, the appropriate message is displayed in the center of the application window, thanks to the label (`juce::Label`) configured in the `MainComponent` class constructor.
 
 ```bash
-systemLabel.setText(message, jucedontSendNotification); systemLabel.setJustificationType(juceJustification::centred); addAndMakeVisible(systemLabel);
+systemLabel.setText(message, jucedontSendNotification);
+systemLabel.setJustificationType(juceJustification::centred);
+addAndMakeVisible(systemLabel);
 ```
 
 ## Requirements
