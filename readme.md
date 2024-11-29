@@ -8,7 +8,7 @@ In the `MainComponent.cpp` file, preprocessor macros are used to determine the o
 
 ```bash
 #if JUCE_WINDOWS message = "Hello Desktop (Windows)"; #elif JUCE_IOS message = "Hello iPhone"; #else message = "Unknown System"; #endif
-
+```
 
 ### Explanation of Macros
 - `#if JUCE_WINDOWS`: This macro checks if the application is running on a Windows system. If the condition is true, the message is set to "Hello Desktop (Windows)".
@@ -23,6 +23,7 @@ When the application is run, the appropriate message is displayed in the center 
 
 ```bash
 systemLabel.setText(message, jucedontSendNotification); systemLabel.setJustificationType(juceJustification::centred); addAndMakeVisible(systemLabel);
+```
 
 ## Requirements
 - JUCE framework
