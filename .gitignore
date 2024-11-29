@@ -44,7 +44,6 @@ Makefile
 *.wav
 *.mp3
 *.aif
-*.png
 *.jpg
 
 # JUCE-generated binary files
