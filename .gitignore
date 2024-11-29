@@ -1,0 +1,52 @@
+# Projucer files
+*.jucer_backup
+
+# Build directories
+Builds/
+.build/
+
+# Xcode build files
+*.xcworkspace
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+.idea/
+
+# Visual Studio files
+*.VC.db
+*.VC.opendb
+*.sdf
+*.vcxproj.user
+*.ipch/
+
+# Linux build files
+*.o
+*.so
+
+# macOS build files
+*.dSYM
+*.plist
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Binary or large assets (if applicable, customize for your project)
+*.wav
+*.mp3
+*.aif
+*.png
+*.jpg
+
+# JUCE-generated binary files
+BinaryData.cpp
+BinaryData.h

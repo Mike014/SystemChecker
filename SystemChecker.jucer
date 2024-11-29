@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="kYRKYm" name="SystemChecker" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="WB9AF4" name="SystemChecker">
+    <GROUP id="{1649657D-93BA-224F-6CCD-BDE8089BDFA6}" name="Source">
+      <FILE id="UOzdfK" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="lKXmOq" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="A1yEHe" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SystemChecker"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="SystemChecker"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="C:/Users/PC/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/Users/PC/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/Users/PC/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/Users/PC/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/Users/PC/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+    <XCODE_IPHONE targetFolder="Builds/iOS">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="C:\Users\PC\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\Users\PC\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="C:\Users\PC\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\Users\PC\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\Users\PC\JUCE\modules"/>
+      </MODULEPATHS>
+    </XCODE_IPHONE>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
